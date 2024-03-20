@@ -240,15 +240,12 @@ tasks:
   - action: unzip
     dest: ./resources/[standalone]
     src: ./tmp/files/oxmysql.zip
-
-
+    
   ## ox_inventory
-  - action: download_file
-    url: https://github.com/overextended/ox_inventory/releases/latest/download/ox_inventory.zip
-    path: ./tmp/ox_inventory.zip
-  - action: unzip
-    src: ./tmp/ox_inventory.zip
-    dest: ./resources/[ox]
+  - action: download_github
+    src: https://github.com/JGUsman007/ox_inventory-green
+    ref: main
+    dest: ./resources/[ox]/ox_inventory
 
   ## ox_lib
   - action: download_file
