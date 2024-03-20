@@ -329,21 +329,6 @@ tasks:
     ref: main
     dest: ./resources/[fivemland]/fl_scoreboard
 
-  - action: download_github
-    src: https://github.com/CsokiHUN/fl_dashboard
-    ref: main
-    dest: ./resources/CsokiHUN/fl_dashboard
-
-  - action: download_github
-    src: https://github.com/At0mit0s/fl_pause_menu
-    ref: main
-    dest: ./resources/[fivemland]/fl_pausemenu
-
-  - action: download_github
-    src: https://github.com/At0mit0s/reportSystem
-    ref: main
-    dest: ./resources/At0mit0s/reportSystem
-
       ## cleanup
   - action: remove_path
     path: ./tmp
