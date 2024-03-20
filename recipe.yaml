@@ -330,12 +330,12 @@ tasks:
     dest: ./resources/[fivemland]/fl_scoreboard
 
   - action: download_github
-    src: https://github.com/fivemland/fl_dashboard
+    src: https://github.com/CsokiHUN/fl_dashboard
     ref: main
-    dest: ./resources/[fivemland]/fl_dashboard
+    dest: ./resources/CsokiHUN/fl_dashboard
 
   - action: download_github
-    src: https://github.com/fivemland/fl_pausemenu
+    src: https://github.com/At0mit0s/fl_pause_menu
     ref: main
     dest: ./resources/[fivemland]/fl_pausemenu
 
