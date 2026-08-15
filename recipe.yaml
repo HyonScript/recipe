@@ -94,6 +94,11 @@ tasks:
     src: ./tmp/ox_inventory.zip
     dest: ./resources/[standalone]
 
+  - action: download_github
+    src: https://github.com/OffSey/Off-Target
+    ref: main
+    dest: ./resources/[standalone]/Off-Target
+
   ## Cleanup
   - action: remove_path
     path: ./tmp
